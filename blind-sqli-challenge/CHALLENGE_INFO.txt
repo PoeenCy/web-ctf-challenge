@@ -1,0 +1,33 @@
+🎯 POEENCY'S CTF CHALLENGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 URL: http://100.93.221.59:53191
+🚩 Flag format: poeency{...}
+
+📋 NHIỆM VỤ:
+1. Truy cập website
+2. Đăng ký tài khoản
+3. Tìm lỗ hổng bảo mật
+4. Lấy flag!
+
+💡 GỢI Ý:
+- Trong lúc mình đang mua sắm, có vẻ như mình quên mất rằng 
+  mình không có quyền để xem những sản phẩm đặc biệt...
+- Nhưng ai nói rằng tên của mình phải là tên thật?
+- Đôi khi, việc mua hàng có thể để lại dấu vết...
+- Và nếu có ai đó có quyền cao hơn, họ có thể thấy những 
+  dấu vết đó ở đâu nhỉ?
+- Câu hỏi là: làm sao để trở thành "ai đó" đó?
+
+🛠️ TOOLS:
+- Burp Suite
+- Browser DevTools
+- Python requests
+- SQLMap (nếu muốn)
+
+⚠️ QUY TẮC:
+✅ Tấn công website này
+❌ Không DDoS
+🤝 Chia sẻ writeup sau khi xong
+
+Good luck! 🚀

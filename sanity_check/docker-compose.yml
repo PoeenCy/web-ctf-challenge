@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  sanity_check:
+    build: ./build
+    container_name: poeency_sanity_check
+    ports:
+      - "37821:5000"  # Custom non-common port - accessible at http://localhost:37821
+    environment:
+      - GZCTF_FLAG=poeency{warm_up_with_type_juggeling}
+    restart: unless-stopped
+    networks:
+      - ctf_network
+
+networks:
+  ctf_network:
+    driver: bridge

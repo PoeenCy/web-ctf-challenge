@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./build
+    container_name: poeency_blind_sqli
+    ports:
+      - "${PORT:-53191}:5000"
+    environment:
+      - GZCTF_FLAG=${FLAG:-poeency{tenshi_appear_supprise!!!!}}
+    restart: unless-stopped
+    networks:
+      - ctf_network
+
+networks:
+  ctf_network:
+    driver: bridge

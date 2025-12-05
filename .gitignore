@@ -1,11 +1,8 @@
-# Ignore everything
-*
+# Block solution directory completely
+solution/
 
-# But allow markdown files
-!*.md
+# Block flag files
+**/flag.txt
+flag.txt
 
-# Allow .gitignore itself
-!.gitignore
-
-# Allow directories (needed to traverse)
-!*/
+# Allow everything else (no other restrictions)

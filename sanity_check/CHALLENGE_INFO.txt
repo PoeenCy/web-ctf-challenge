@@ -1,0 +1,45 @@
+🎯 POEENCY'S CTF CHALLENGE - SANITY CHECK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 URL: http://100.93.221.59:37821
+🚩 Flag format: poeency{...}
+
+📋 NHIỆM VỤ:
+1. Truy cập website
+2. Đăng nhập với username bất kỳ
+3. Tìm cách bypass validation
+4. Lấy flag!
+
+💡 GỢI Ý:
+- Website này cho phép bạn toggle các checkbox...
+- Nhưng có vẻ như validation chỉ kiểm tra "chuỗi" của bạn?
+- Python xử lý các kiểu dữ liệu khác nhau như thế nào nhỉ?
+- Bạn đã thử gửi một dictionary thay vì string chưa?
+- Độ dài được tính như thế nào với các kiểu dữ liệu khác?
+- Vòng for trong Python duyệt qua dict ra sao?
+
+🔍 KIẾN THỨC CẦN:
+- Python type juggling
+- Dictionary vs String
+- JSON manipulation
+- Browser DevTools / Burp Suite
+
+🛠️ TOOLS:
+- Browser DevTools (F12)
+- Burp Suite
+- Python requests
+- Postman (optional)
+
+⚠️ QUY TẮC:
+✅ Tấn công website này
+✅ Thử nghiệm với các kiểu dữ liệu khác nhau
+❌ Không DDoS
+🤝 Chia sẻ writeup sau khi xong
+
+📝 LƯU Ý:
+- Đây là challenge warm-up, không quá khó!
+- Focus vào cách Python xử lý các kiểu dữ liệu
+- Hãy đọc kỹ source code nếu được cung cấp
+- Endpoint quan trọng: /update và /get_flag
+
+Good luck! 🚀

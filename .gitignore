@@ -1,8 +1,0 @@
-# Block entire solution directory
-**/solution/
-
-# Block all flag files
-**/flag.txt
-flag.txt
-
-# That's it - allow everything else

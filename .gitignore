@@ -1,8 +1,8 @@
-# Block solution directory completely
-solution/
+# Block entire solution directory
+**/solution/
 
-# Block flag files
+# Block all flag files
 **/flag.txt
 flag.txt
 
-# Allow everything else (no other restrictions)
+# That's it - allow everything else
